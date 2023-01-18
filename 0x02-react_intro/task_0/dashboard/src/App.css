@@ -1,0 +1,54 @@
+:root {
+  --main-color: #e01d3f;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial;
+}
+
+.App-header {
+  margin-bottom: 1rem;
+  border-bottom: 3px solid var(--main-color);
+  display: flex;
+  /* width: 95%; */
+}
+
+.App-header h1 {
+  color: var(--main-color);
+  margin-top: auto;
+  margin-bottom: auto;
+  display: inline-block;
+  font-size: 3rem;
+}
+
+.App-header img {
+  height: 300px;
+  width: 300px;
+  padding-left: 1rem;
+}
+
+.App-body {
+  font-size: 1.5rem;
+}
+
+.App-body p {
+  margin-left: 3.5rem;
+}
+
+.App-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  border-top: 3px solid var(--main-color);
+}
+
+.App-footer p {
+  font-size: 1rem;
+}
