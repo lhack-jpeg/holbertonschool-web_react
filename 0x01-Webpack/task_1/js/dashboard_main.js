@@ -9,11 +9,11 @@ $("body").append("<p>Copyright - Holberton School</p>");
 
 let count = 0;
 
-let countClicks = () => {
+let updateCounter = () => {
     count++;
     $("#count").text(count + " clicks on the button");
 };
 
 _.debounce(function () {
-    $("button").on("click", countClicks);
+    $("button").on("click", updateCounter);
 }, 100);
